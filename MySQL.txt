@@ -1,0 +1,18 @@
+mysqld --initialize -- console
+mysqld
+mysql -u root -p
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Pa$$w0rd' ;
+FLUSH PRIVILEGES;
+Pa$$w0rd 
+quit
+exit
+
+INSTALLER
+https://dev.mysql.com/downloads/file/?id=518835
+USE mysql;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Pa$$w0rd';
+FLULSH PRIVELEGES;
+
+
+
+mysqld --defaults-file="C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini" --init-file=C:\\password.txt
